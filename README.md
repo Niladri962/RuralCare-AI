@@ -25,6 +25,8 @@ Millions of people in rural and semi-urban India face delays in receiving medica
 * Struggle with telemedicine platforms.
 * Need quick guidance before reaching a hospital.
 
+<img width="1411" height="845" alt="Screenshot 2026-08-24 223953" src="https://github.com/user-attachments/assets/4b468209-9531-4994-bd33-632eb5f5c9b3" />
+
 **RuralCare AI** addresses this gap with a multilingual, voice-first AI assistant that performs safe symptom triage and recommends appropriate next actions.
 
 > **Disclaimer:** RuralCare AI is a triage assistant, not a diagnostic system. It does not replace licensed healthcare professionals.
