@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>RuralCare AI</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="container">
+
+<header>
+
+<div class="logo-area">
+
+<div class="logo">
+🩺
+</div>
+
+<div>
+
+<h1>RuralCare AI</h1>
+
+<p>Healthcare Triage Assistant</p>
+
+</div>
+
+</div>
+
+<div class="language">
+
+<button class="active">EN</button>
+
+<button>हिं</button>
+
+<button>ਪੰ</button>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-icon">
+🩺
+</div>
+
+<h2>How are you feeling today?</h2>
+
+<p>
+Describe your symptoms by speaking or typing.
+We'll help determine the appropriate next step.
+</p>
+
+</section>
+
+<section id="chatBox" class="chat-box">
+
+<div class="assistant-card">
+
+<div class="assistant-header">
+🤖 RuralCare AI
+</div>
+
+<div class="assistant-text">
+Welcome! Tell me your symptoms in English, Hindi, or Punjabi.
+</div>
+
+</div>
+
+</section>
+
+<div id="emergencyCard" class="emergency hidden">
+
+<div class="emergency-icon">
+🚨
+</div>
+
+<div>
+
+<h3>Immediate Medical Attention</h3>
+
+<p id="emergencyText">
+Please seek emergency medical care immediately.
+</p>
+
+</div>
+
+</div>
+
+<section class="voice-section">
+
+<button id="micButton" class="mic-button">
+
+🎙️
+
+</button>
+
+<p>Tap to speak</p>
+
+</section>
+
+<section class="input-section">
+
+<textarea
+id="messageInput"
+placeholder="Describe your symptoms..."
+rows="2"></textarea>
+
+<button id="sendButton">
+Send
+</button>
+
+</section>
+
+<footer>
+
+RuralCare AI provides preliminary triage assistance and is not a substitute for professional medical care.
+
+</footer>
+
+</div>
+
+<script src="/static/app.js"></script>
+
+</body>
+</html>
